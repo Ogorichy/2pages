@@ -1,0 +1,348 @@
+/*navbar*/
+
+nav{
+	display: flex;
+   justify-content: space-between;
+   background: white;
+   padding: 1.6rem;
+   flex-wrap: wrap;
+   height: 10vh;
+   overflow: hidden;
+   transition: all 1.3s ease;
+   width: 100%;
+	cursor: pointer;
+	position: relative;
+}
+
+
+.save{
+	background: white; 
+	color: navy; 
+	height: 70vh;
+}
+.brand a{
+	text-decoration: none;
+	color: navy;
+	font-size: 2rem;
+	cursor: pointer;
+	
+}
+
+.brand a:hover{background:navy;
+                   color:  white;
+                border-radius: 10px;
+            cursor: pointer;}
+.toggle i{
+	color:white;
+	font-size: 2rem;
+	display: none;
+	cursor: pointer;
+}
+ .menu{
+	margin: 0px;
+	display: flex;
+	list-style: none;
+}
+.menu li a{
+	font-size: 2rem;
+	text-decoration: none;
+	color:  navy;
+	margin: 30px; 
+	cursor: pointer;    
+}
+.menu li a:hover{background: navy;
+                   color: white;
+                    border-radius: 10px;
+                    cursor: pointer;}
+
+	
+/*End of Navbar*/
+
+
+
+/*Header Section*/
+.header{
+	display: flex;
+	align-items: flex-end;
+	height: 500px;
+	justify-content: center;
+	background-image: url("../img/1.png");
+	background-position: buttom;
+	background-size: cover;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+.header-contents{
+	margin-bottom: 150px;
+	text-align: center;
+	cursor: pointer;
+	font-family: serif;
+}
+.header-contents h1{
+	font-size: 5vmin;
+	color:  white;
+	cursor: pointer;
+	font-family: serif;
+}
+.header-contents h4{
+	font-size: 4vmin;
+	color: white;
+	cursor: pointer;
+}
+button{font-size: 3vmin;
+	color: white;
+    background: navy;
+   text-decoration: none;
+   cursor: pointer;}
+
+    button:hover{background: white;
+                   color:  navy;   
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+
+/*End of Header Section*/
+
+
+/*About Section*/
+#About{
+	padding: 0px 40px 0px 40px;
+	height: 500px;
+	background: white; 
+	color: navy;
+	font-size: 2rem;
+	cursor: pointer;
+	font-family: serif;
+	margin: 0px;
+}
+#About h1{
+             text-align: center;
+	        background: navy;
+	        color: white;
+	        padding: 20px 20px 20px 20px;
+	        font-family: serif;
+
+             }
+.myslide{
+	position: relative;
+}
+.cascade{
+	-webkit-animation-name: pj;
+	-webkit-animation-duration: 1.5s;
+	animation-name: pj;
+	animation-duration: 1.5s;
+}
+@keyframes pj{
+	from3
+		opacity: 0.5;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+/*End of About Section*/
+
+/*Services Section*/
+
+#Services{
+
+	padding: 160px 40px 0px 40px;
+	height: auto;
+    background: white; 
+	color:  navy;
+	font-size: 2rem;
+    cursor: pointer;
+    font-family: serif;
+    height: 500px;
+
+}
+
+
+#Services h1{
+    text-align: center;
+    color: navy;
+}
+
+#Services h4{margin-bottom: 40px;
+             text-align: center;
+	        background: navy;
+	        color: white;
+	        padding: 40px 40px 40px 40px;
+             }
+
+#Services h3{
+	text-align: center;
+	color: navy;
+
+}
+
+#Services img:hover{
+	-webkit-animation-name: x;
+	-webkit-animation-duration: 1.3s;
+	animation-name: x;
+	animation-duration: 1.3s;
+
+}
+
+
+@keyframes x{
+	from{
+		padding: 50px;
+		opacity: 0.5;
+		border: solid 0.5px;
+		border-radius: 20px;
+	}
+	to{
+		padding: 0px;
+		opacity: 1;
+	}
+}
+/*End of Service Section
+*/
+
+/*Portfolio Section*/
+
+#Portfolio{
+
+	padding: 0px 40px 0px 40px;
+	height: auto;
+    background: white; 
+	color:  navy;
+	font-size: 1.7rem;
+    cursor: pointer;
+    font-family: serif;
+    cursor: pointer;
+    height: 500px;
+}
+
+#Portfolio h1{margin-bottom: 40px;
+             text-align: center;
+	        background: navy;
+	        color: white;
+	        padding: 20px 20px 20px 20px;
+	        font-family: serif;
+
+             }
+
+/* End of Portfolio Section*/
+
+/*Contact*/
+
+#Contact{
+
+	padding: 0px 40px 0px 40px;
+	height: auto;
+    background: white; 
+	color:  navy;
+	font-size: 2rem;
+    cursor: pointer;
+    font-family: serif;
+    height: 500px;
+
+}
+
+#Contact ul li a{text-decoration: none;
+                  background: white; 
+	color:  navy;
+	font-size: 2rem;
+    cursor: pointer;
+    font-family: serif; 
+    }
+
+
+#Contact ul li a:hover{background: navy;
+	color: white; 
+	font-size: 2rem;
+    cursor: pointer;
+    font-family: serif;
+    border-radius: 10px;
+
+    }
+#Contact ul li {list-style: none;}
+
+#Contact h1{
+ text-align: center;
+ background: navy;
+	color:  white;
+	width: 100%;
+	padding: 20px 20px 20px 0px;
+	cursor: pointer;
+}
+
+
+/*End of Contact*/
+
+.share{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.share a{
+    color: navy;
+    font-size: 2rem;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    border: .1rem solid navy;
+    margin: .3rem;
+}
+
+.share a:hover{
+    color: white;
+    background: navy;
+    transform: rotate(360deg);}
+
+/*Footer*/
+
+footer{
+	padding: 10px 0px 0px 0px;
+	background: navy;
+       height: 50px;
+       text-align: center;
+       color:  white; 
+       font-size: 2rem;
+       font-family: serif;
+       clear: both;}
+
+/*End of footer*/
+
+
+@media(max-width: 800px){
+	.menu{
+		flex-direction: column;
+	}
+	.menu li{
+		width: 100vw;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+    .toggle i{
+	display: initial;
+}
+nav{
+	width: 100%;
+	background:  navy;
+	height: 15vh;
+}
+#About{
+	background:  #white;
+	height: 500px;
+	color:  navy;
+}
+#Services{
+	background: white;
+	color:  navy;
+	height: auto;
+}
+#Portfolio{
+	background: white;
+	color:  navy;
+	height: 500px;
+}
+footer{clear: both;}
+
+
+}
